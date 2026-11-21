@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: todos-mcp-server
+  ai:
+    mcp:
+      server:
+        name: todos-mcp-server
+        version: 0.0.1
+        protocol: streamable
+  http:
+    serviceclient:
+      todos:
+        base-url: http://localhost:8080
+
+server:
+  port: 8081
